@@ -73,6 +73,11 @@ This repository serves as a centralized hub for researchers, practitioners, and 
 
     **Language**: English  **Country**: multinational
 
+- **LBOX OPEN**: This paper present the first large-scale benchmark of Korean legal AI datasets, LBOX OPEN, that consists of one legal corpus, two classification tasks, two legal judgement prediction (LJP) tasks, and one summarization task.
+    [Paper](https://arxiv.org/abs/2206.05224) [Link](https://github.com/lbox-kr/lbox-open)
+    
+    **Language**: Korean  **Country**: Korean
+
 ### Legal Case Retrieval
 
 - **LeCaRD**: LeCaRD composes of 107 query cases and 10,700 candidate cases selected from a corpus
@@ -132,6 +137,20 @@ of over 43,000 Chinese criminal judgements.
     **Language**: English  **Country**: America
 
 ### Document classification 
+
+- **CAIL2018**: CAIL2018 contains more than 2.6 million criminal cases published by the Supreme People’s Court of China.  It consists of applicable law articles, charges, and prison terms, which are expected to be inferred according to the fact descriptions of cases.
+    [Paper](https://arxiv.org/abs/1807.02478) [Link](https://github.com/thunlp/CAIL2018)
+    
+    **Language**: Chinese  **Country**: China
+
+- **ECHR**: This paper contributes a new publicly available English legal judgment prediction dataset of cases from the European Court of Human Rights (~11.5k cases).
+    [Paper](https://aclanthology.org/P19-1424/) [Link](https://archive.org/details/ECHR-ACL2019)
+    
+    **Language**: English  **Country**: European
+
+
+
+
 
 ### Summarization 
 
