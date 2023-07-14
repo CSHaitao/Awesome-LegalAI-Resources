@@ -12,3 +12,12 @@ This repository aims to collect all LegalAI data to facilitate the development o
     **Language**: multilingual  **Country**: multinational
     [Link](https://huggingface.co/datasets/joelito/legal-mc4)
 
+- **EurlexResources**: This dataset contains large text resources (~179GB in total) from EURLEX that can be used for pretraining language models.
+    **Language**: multilingual  **Country**: multinational
+    [Link](https://huggingface.co/datasets/joelito/eurlex_resources)
+
+- **LeXFile**: The LeXFiles is a new diverse English multinational legal corpus that we created including 11 distinct sub-corpora that cover legislation and case law from 6 primarily English-speaking legal systems (EU, CoE, Canada, US, UK, India). The corpus contains approx. 19 billion tokens.
+    **Language**: multilingual  **Country**: multinational
+
+
+
