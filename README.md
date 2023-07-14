@@ -5,34 +5,39 @@ This repository aims to collect all LegalAI data to facilitate the development o
 
 ## General Corpus
 - **MultiLegalPile**: A 689GB corpus in 24 languages from 17 jurisdictions.
-
-    **Language**: multilingual  **Country**: multinational
-
     [Paper](https://arxiv.org/abs/2306.02069v2) [Link](https://huggingface.co/datasets/joelito/Multi_Legal_Pile)
 
-- **MC4_legal**: This dataset contains large text resources (~106GB in total) from mc4 filtered for legal data that can be used for pretraining language models.
-
     **Language**: multilingual  **Country**: multinational
 
+
+
+- **MC4_legal**: This dataset contains large text resources (~106GB in total) from mc4 filtered for legal data that can be used for pretraining language models.
     [Link](https://huggingface.co/datasets/joelito/legal-mc4)
 
-- **EurlexResources**: This dataset contains large text resources (~179GB in total) from EURLEX that can be used for pretraining language models.
-
     **Language**: multilingual  **Country**: multinational
 
+- **EurlexResources**: This dataset contains large text resources (~179GB in total) from EURLEX that can be used for pretraining language models.
     [Link](https://huggingface.co/datasets/joelito/eurlex_resources)
 
+    **Language**: multilingual  **Country**: multinational
+
 - **LeXFile**: The LeXFiles is a new diverse English multinational legal corpus that we created including 11 distinct sub-corpora that cover legislation and case law from 6 primarily English-speaking legal systems (EU, CoE, Canada, US, UK, India). The corpus contains approx. 19 billion tokens.
+   [Paper](https://arxiv.org/abs/2305.07507) [Link](https://huggingface.co/datasets/lexlms/lex_files)
 
     **Language**: multilingual  **Country**: multinational
 
-    [Paper](https://arxiv.org/abs/2305.07507) [Link](https://huggingface.co/datasets/lexlms/lex_files)
+- **Pile of Law**: A 256GB (and growing) dataset of open-source English-language legal and administrative data, covering court opinions, contracts, administrative rules, and legislative records.
+    [Paper](https://arxiv.org/abs/2207.00220) [Link](https://github.com/Breakend/PileOfLaw)
+
+    **Language**: English  **Country**: Unknown
+
 
 - **Spanish Legal Domain Corpora**: Our corpora comprises multiple digital resources and it has a total of 8.9GB of textual data.
+    [Paper](https://arxiv.org/abs/2110.12201) [Link](https://github.com/PlanTL-GOB-ES/lm-legal-es)
 
     **Language**: Spanish  **Country**: Spanish
 
-    [Paper](https://arxiv.org/abs/2110.12201) [Link](https://github.com/PlanTL-GOB-ES/lm-legal-es)
+
 
 
 
