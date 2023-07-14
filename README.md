@@ -18,6 +18,12 @@ This repository aims to collect all LegalAI data to facilitate the development o
 
 - **LeXFile**: The LeXFiles is a new diverse English multinational legal corpus that we created including 11 distinct sub-corpora that cover legislation and case law from 6 primarily English-speaking legal systems (EU, CoE, Canada, US, UK, India). The corpus contains approx. 19 billion tokens.
     **Language**: multilingual  **Country**: multinational
+    [Paper](https://arxiv.org/abs/2305.07507) [Link](https://huggingface.co/datasets/lexlms/lex_files)
+
+-**Spanish Legal Domain Corpora**: Our corpora comprises multiple digital resources and it has a total of 8.9GB of textual data.
+
+
+https://github.com/PlanTL-GOB-ES/lm-legal-es
 
 
 
