@@ -48,6 +48,10 @@ This repository serves as a centralized hub for researchers, practitioners, and 
 
     **Language**: Spanish  **Country**: Spanish
 
+- **GeLeCo**: GeLeCo is a large German Legal Corpus for research, teaching and translation purposes. It includes the complete collection of federal laws, administrative regulations and court decisions published on three online databases by the German Federal Ministry of Justice and Consumer Protection and the Federal Office of Justice.
+    [Link](https://github.com/antcont/GeLeCo)
+
+    **Language**: German  **Country**: German
 
 ## Evaluation Benchmark
 
@@ -153,6 +157,10 @@ of over 43,000 Chinese criminal judgements.
 
     **Language**: multilingual  **Country**: multinational
 
+
+To meet this need for publicly available German legal text corpora this paper presents two German legal text corpora. The first corpus contains 32,748 decisions from 131 German courts, enriched with metadata. The second one is a subset of the first corpus and consists of 200 randomly chosen judgements.
+
+https://www.scitepress.org/PublishedPapers/2021/101873/101873.pdf
 
 ### Summarization 
 
