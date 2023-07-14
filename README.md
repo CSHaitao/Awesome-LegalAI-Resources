@@ -136,7 +136,7 @@ of over 43,000 Chinese criminal judgements.
     
     **Language**: English  **Country**: America
 
-### Document classification 
+### Document Classification 
 
 - **CAIL2018**: CAIL2018 contains more than 2.6 million criminal cases published by the Supreme People’s Court of China.  It consists of applicable law articles, charges, and prison terms, which are expected to be inferred according to the fact descriptions of cases.
     [Paper](https://arxiv.org/abs/1807.02478) [Link](https://github.com/thunlp/CAIL2018)
@@ -148,14 +148,17 @@ of over 43,000 Chinese criminal judgements.
     
     **Language**: English  **Country**: European
 
+- **Swiss-Judgment-Prediction**: The paper publicly release a multilingual (German, French, and Italian), diachronic (2000-2020) corpus of 85K cases from the Federal Supreme Court of Switzer- land (FSCS).
+    [Paper](https://aclanthology.org/2021.nllp-1.3/) [Link](https://github.com/joelniklaus/swissjudgementprediction)
 
-
+    **Language**: multilingual  **Country**: multinational
 
 
 ### Summarization 
 
 ### Entity extraction
-
+ 
+### Others
 
 ## Websites
 
