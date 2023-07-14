@@ -75,13 +75,13 @@ This repository serves as a centralized hub for researchers, practitioners, and 
 
 ### Legal Case Retrieval
 
--**LeCaRD**: LeCaRD composes of 107 query cases and 10,700 candidate cases selected from a corpus
+- **LeCaRD**: LeCaRD composes of 107 query cases and 10,700 candidate cases selected from a corpus
 of over 43,000 Chinese criminal judgements.
     [Paper](https://dl.acm.org/doi/10.1145/3404835.3463250) [Link](https://github.com/myx666/LeCaRD)
 
     **Language**: Chinese  **Country**: China
 
--**LeCaRDv2**: LeCaRDv2 is one of the largest Chinese legal case retrieval datasets with the widest coverage of criminal charges. The dataset comprises 800 query cases and 55,192 candidate cases extracted from 4.3 million criminal case documents.
+- **LeCaRDv2**: LeCaRDv2 is one of the largest Chinese legal case retrieval datasets with the widest coverage of criminal charges. The dataset comprises 800 query cases and 55,192 candidate cases extracted from 4.3 million criminal case documents.
     [Link](https://github.com/THUIR/LeCaRDv2)
 
     **Language**: Chinese  **Country**: China
