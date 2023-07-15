@@ -53,6 +53,11 @@ This repository serves as a centralized hub for researchers, practitioners, and 
 
     **Language**: German  **Country**: German
 
+- **CourtListener**: The original Court Listener dataset is a collection of every court opinion published by every court in the United States. It covers 406 jurisdictions (out of 423), with opinions from the year 1754 up to now. It is constantly updated with newly filed opinions, and digitized archives.
+    [Link](https://www.courtlistener.com/help/api/bulk-data/)
+
+    **Language**: English  **Country**: America
+
 ## Evaluation Benchmark
 
 ### Multi Legal Task
@@ -81,6 +86,16 @@ This repository serves as a centralized hub for researchers, practitioners, and 
     [Paper](https://arxiv.org/abs/2206.05224) [Link](https://github.com/lbox-kr/lbox-open)
     
     **Language**: Korean  **Country**: Korean
+
+- **GENTLE**: We present GENTLE, a new mixed-genre English challenge corpus totaling 17K tokens and consisting of 8 unusual text types for out-of domain evaluation: dictionary entries, esports commentaries, legal documents, medical notes, poetry, mathematical proofs, syllabuses, and threat letters. 
+    [Paper](https://arxiv.org/abs/2306.01966) [Link](https://github.com/gucorpling/gentle)
+    
+    **Language**: English  **Country**: Unkonwn
+
+- **SCALE**: In this paper, we introduce a novel NLP benchmark that poses challenges to current LLMs across four key dimensions: processing long documents (up to 50K tokens), utilizing domain specific knowledge (embodied in legal texts), multilingual understanding (covering five languages), and multitasking (comprising legal document to document Information Retrieval, Court View Generation, Leading Decision Summarization, Citation Extraction, and eight challenging Text Classification tasks).
+    [Paper](https://arxiv.org/abs/2306.09237) [Link](https://huggingface.co/rcds)
+    
+    **Language**: multilingual  **Country**: Switzerland
 
 ### Legal Case Retrieval
 
@@ -123,7 +138,7 @@ of over 43,000 Chinese criminal judgements.
     **Language**: English  **Country**: America
 
 - **PrivacyQA**: PrivacyQA is a corpus consisting of 1750 questions about the contents of privacy policies, paired with expert annotations. 
-    [Paper](https://ceur-ws.org/Vol-2645/paper5.pdf) [Link](https://github.com/AbhilashaRavichander/PrivacyQA_EMNLP)
+    [Paper](https://arxiv.org/abs/1911.00841) [Link](https://github.com/AbhilashaRavichander/PrivacyQA_EMNLP)
     
     **Language**: English  **Country**: America
 
@@ -162,15 +177,50 @@ of over 43,000 Chinese criminal judgements.
 
     **Language**: German  **Country**: German
 
-
 ### Summarization 
+
+- **BillSum**: We introduce the BillSum dataset, which contains a primary corpus of 22,218 US Congressional bills and reference summaries split into a train and a test set.
+    [Paper](https://aclanthology.org/D19-5406/) [Link](https://huggingface.co/datasets/billsum)
+
+    **Language**: English  **Country**: America
+
+- **EUR-Lex-Sum**: We obtain up to 1,500 document/summary pairs per language, including a subset of 375 crosslingually aligned legal acts with texts available in all 24 languages.
+    [Paper](https://arxiv.org/abs/2210.13448) [Link](https://huggingface.co/datasets/dennlinger/eur-lex-sum)
+
+    **Language**: multilingual  **Country**: European
+
 
 ### Entity extraction
  
+- **CDJUR-BR**: We describe the development of the Golden Collection of the Brazilian Judiciary (CDJUR-BR) contemplating a set of fine-grained named entities that have been annotated by experts in legal documents. This contains 44,526 annotations for 21 entities.
+    [Paper](https://arxiv.org/abs/2305.18315) [Link](https://huggingface.co/datasets/dennlinger/eur-lex-sum)
+
+    **Language**: Portuguese  **Country**: Brazilian
+
 ### Others
 
-## Websites
+- **MAUD**: To address this challenge, we introduce the Merger Agreement Understanding Dataset (MAUD), an expert-annotated reading comprehension dataset based on the American Bar Association’s 2021 Public Target Deal Points Study, with over 39,000 examples and over 47,000 total annotations.
+    [Paper](https://arxiv.org/abs/2301.00876) [Link](https://drive.google.com/drive/folders/1RujOK2FZKdFSCJ15tqdyd42g8WLsYagj)
 
+    **Language**: English  **Country**: America
+
+- **VerbCL**: This paper presents a new dataset that consists of the citation graph of court opinions, which cite previously published court opinions in support of their arguments.
+    [Paper](https://arxiv.org/abs/2108.10120) [Link](https://uvaauas.figshare.com/articles/dataset/VerbCL_Dataset/14798878/1)
+
+    **Language**: English  **Country**: America
+
+- **MultiLegalSBD**: Sentence Boundary Detection (SBD) is one of the foundational building blocks of Natural Language Processing (NLP), with incorrectly split sentences heavily influencing the output quality of downstream tasks. We curated a diverse multilingual legal dataset consisting of over 130'000 annotated sentences in 6 languages.
+    [Paper](https://arxiv.org/abs/2305.01211) [Link](https://huggingface.co/datasets/rcds/MultiLegalSBD)
+
+    **Language**: multilingual  **Country**: multinational
+
+- **FairLex**: Our benchmarks cover four jurisdictions (European Council, USA, Switzerland, and China), five languages (English, German, French, Italian and Chinese) and fairness across five attributes (gender, age, region, language, and legal area).
+    [Paper](https://arxiv.org/abs/2203.07228) [Link](https://huggingface.co/datasets/coastalcph/fairlex)
+
+    **Language**: multilingual  **Country**: multinational
+
+## Websites
+- **Free Law**: https://free.law/
 
 ## Contact
 
