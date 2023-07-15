@@ -220,7 +220,23 @@ of over 43,000 Chinese criminal judgements.
     **Language**: multilingual  **Country**: multinational
 
 ## Websites
-- **Free Law**: https://free.law/
+- https://flk.npc.gov.cn/ all Chinese laws and regulations
+
+- https://wenshu.court.gov.cn/ judicial documents in China
+
+- https://case.law/ all official, book-published United States case law.
+
+- https://www.legifrance.gouv.fr/ a French legal publisher providing access to law codes and legal decisions.
+
+- http://scdb.wustl.edu/ information about every case decided by the US Supreme Court between 1791 and today.
+
+- https://www.statmt.org/europarl/ Parallel text of the proceedings of the European Parliment, collected in 11 languages.
+
+- https://uscode.house.gov/download/download.shtml downloadable version of the US Code in XML format
+
+- https://www.uspto.gov/ip-policy/economic-research/research-datasets/patent-litigation-docket-reports-data detailed patent litigation data on over 80k unique district court cases
+
+- https://free.law/
 
 ## Contact
 
