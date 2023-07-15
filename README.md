@@ -157,10 +157,11 @@ of over 43,000 Chinese criminal judgements.
 
     **Language**: multilingual  **Country**: multinational
 
+- **German Legal Decision Corpora**:To meet this need for publicly available German legal text corpora this paper presents two German legal text corpora. The first corpus contains 32,748 decisions from 131 German courts, enriched with metadata. The second one is a subset of the first corpus and consists of 200 randomly chosen judgements.
+    [Paper](https://www.scitepress.org/PublishedPapers/2021/101873/101873.pdf) [Link](https://zenodo.org/record/3936490#.X1ed7ovgomK)
 
-To meet this need for publicly available German legal text corpora this paper presents two German legal text corpora. The first corpus contains 32,748 decisions from 131 German courts, enriched with metadata. The second one is a subset of the first corpus and consists of 200 randomly chosen judgements.
+    **Language**: German  **Country**: German
 
-https://www.scitepress.org/PublishedPapers/2021/101873/101873.pdf
 
 ### Summarization 
 
