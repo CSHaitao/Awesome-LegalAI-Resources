@@ -90,7 +90,7 @@ This repository serves as a centralized hub for researchers, practitioners, and 
 - **GENTLE**: We present GENTLE, a new mixed-genre English challenge corpus totaling 17K tokens and consisting of 8 unusual text types for out-of domain evaluation: dictionary entries, esports commentaries, legal documents, medical notes, poetry, mathematical proofs, syllabuses, and threat letters. 
     [Paper](https://arxiv.org/abs/2306.01966) [Link](https://github.com/gucorpling/gentle)
     
-    **Language**: English  **Country**: Unkonwn
+    **Language**: English  **Country**: Unknown
 
 - **SCALE**: In this paper, we introduce a novel NLP benchmark that poses challenges to current LLMs across four key dimensions: processing long documents (up to 50K tokens), utilizing domain specific knowledge (embodied in legal texts), multilingual understanding (covering five languages), and multitasking (comprising legal document to document Information Retrieval, Court View Generation, Leading Decision Summarization, Citation Extraction, and eight challenging Text Classification tasks).
     [Paper](https://arxiv.org/abs/2306.09237) [Link](https://huggingface.co/rcds)
@@ -177,6 +177,17 @@ of over 43,000 Chinese criminal judgements.
 
     **Language**: German  **Country**: German
 
+- **EURLEX57K**:We release a new dataset of 57k legislative documents from EUR-LEX, the European Union’s public document database, annotated with concepts from EUROVOC, a multidisciplinary thesaurus.
+    [Paper](https://aclanthology.org/W19-2209/) [Link](http://nlp.cs.aueb.gr/software_and_datasets/EURLEX57K/)
+
+    **Language**: English  **Country**: European
+
+- **German rental agreements**:601 sentences from the tenancy law of the German Civil Code and 312 sentences, classified according to a semantic type system consisting of 9 different classes, from German rental agreements.
+    [Paper](https://www.researchgate.net/publication/332171940_Classifying_Semantic_Types_of_Legal_Sentences_Portability_of_Machine_Learning_Models) [Link](https://github.com/sebischair/Legal-Sentence-Classification-Datasets-and-Models)
+
+    **Language**: English  **Country**: German
+
+
 ### Summarization 
 
 - **BillSum**: We introduce the BillSum dataset, which contains a primary corpus of 22,218 US Congressional bills and reference summaries split into a train and a test set.
@@ -189,6 +200,22 @@ of over 43,000 Chinese criminal judgements.
 
     **Language**: multilingual  **Country**: European
 
+- **Plain English Summarization of Contracts**: The dataset we propose contains 446 sets of parallel text.
+    [Paper](https://www.aclweb.org/anthology/W19-2201) [Link](https://github.com/lauramanor/legal_summarization#plain-english-summarization-of-contracts)
+
+    **Language**: English  **Country**: America
+
+- **Summarization-of-Privacy-Policies**: This dataset was extracted from the text of privacy policy, terms of service, and cookie policy of 151 companies. The Points and Plain English Summaries are extracted from tosdr.org.
+    [Paper](https://ceur-ws.org/Vol-2645/paper3.pdf) [Link](https://github.com/senjed/Summarization-of-Privacy-Policies)
+
+    **Language**: English  **Country**: Unknown
+
+- **Multi-LexSum**: We introduce Multi-LexSum, a collection of 9,280 expert-authored summaries drawn from ongoing CRLC writing.
+    [Paper](https://arxiv.org/abs/2206.10883) [Link](https://multilexsum.github.io/)
+
+    **Language**: English  **Country**: Unknown
+
+
 
 ### Entity extraction
  
@@ -196,6 +223,13 @@ of over 43,000 Chinese criminal judgements.
     [Paper](https://arxiv.org/abs/2305.18315) [Link](https://huggingface.co/datasets/dennlinger/eur-lex-sum)
 
     **Language**: Portuguese  **Country**: Brazilian
+
+- **Extracting Contract Elements**: The paper describes and is accompanied by a new benchmark dataset of approximately 3,500 English contracts with gold contract element annotations.
+    [Paper](http://nlp.cs.aueb.gr/pubs/icail2017.pdf)
+
+    **Language**: English  **Country**: England
+
+    
 
 ### Others
 
@@ -219,10 +253,26 @@ of over 43,000 Chinese criminal judgements.
 
     **Language**: multilingual  **Country**: multinational
 
-## Websites
-- https://flk.npc.gov.cn/ all Chinese laws and regulations
+- **ContractNLI**: In this work, we propose documentlevel natural language inference (NLI) for contracts, a novel, real-world application of NLI that addresses such problems. We annotated and release the largest corpus to date consisting of 607 annotated contracts.
+    [Paper](https://arxiv.org/abs/2110.01799) [Link](https://stanfordnlp.github.io/contract-nli/)
 
-- https://wenshu.court.gov.cn/ judicial documents in China
+    **Language**: English  **Country**: America
+
+- **Demosthen**: A novel corpus for argument mining in legal documents, composed of 40 decisions of the Court of Justice of the European Union on matters of fiscal state ai.
+    [Paper](https://aclanthology.org/2022.argmining-1.14.pdf) [Link](https://github.com/adele-project/demosthenes)
+
+    **Language**: English  **Country**: European
+
+## Websites
+- https://flk.npc.gov.cn/ all Chinese laws and regulations.
+
+- https://wenshu.court.gov.cn/ judicial documents in China.
+
+- https://www.westlaw.com/: a well-known legal research platform that provides access to legal documents, cases, statutes, commentaries, and legal news from around the world.
+
+- https://www.lexisnexis.com/: another widely used legal research tool that offers global legal documents, cases, statutes, news, and commentaries.
+
+- https://home.heinonline.org/: a specialized legal and law-related research database that includes legal documents, journals, statutes, and more from the United States and other countries.
 
 - https://case.law/ all official, book-published United States case law.
 
@@ -236,7 +286,26 @@ of over 43,000 Chinese criminal judgements.
 
 - https://www.uspto.gov/ip-policy/economic-research/research-datasets/patent-litigation-docket-reports-data detailed patent litigation data on over 80k unique district court cases
 
-- https://free.law/
+- https://curia.europa.eu/jcms/jcms/j_6/: the official website of the European Court of Justice, offering access to European Union legal documents and cases.
+
+- https://www.justia.com/: provides access to a wide range of legal information, including cases, statutes, regulations, and legal articles. Covers both U.S. federal and state laws.
+
+- https://www.findlaw.com/: offers legal resources and information, including cases, statutes, regulations, and legal news. Covers U.S. federal and state laws.
+
+- https://www.courtlistener.com/: a free legal research platform that provides access to U.S. federal and state court cases, along with other legal documents and opinions.
+
+- https://www.pacer.gov/: the Public Access to Court Electronic Records (PACER) system provides access to U.S. federal court documents, including case filings, docket information, and court opinions. Registration and fees may apply.
+
+- https://www.law.cornell.edu/: operated by Cornell Law School, the LII offers access to U.S. federal and state laws, regulations, and court cases, along with legal articles and resources.
+
+- https://www.bailii.org/: provides access to legal materials from the United Kingdom and Ireland, including cases, legislation, and legal journals.
+
+- https://www.austlii.edu.au/: Offers access to legal materials from Australia and neighboring countries, including cases, legislation, treaties, and law reform reports.
+
+- https://www.canlii.org/: Provides access to Canadian legal documents, including cases, statutes, regulations, and court rules.
+
+- https://www.worldlii.org/: a free and independent global legal research resource, aggregating legal materials from various countries and regions.
+
 
 ## Contact
 
